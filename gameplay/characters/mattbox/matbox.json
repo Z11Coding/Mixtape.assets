@@ -1,0 +1,93 @@
+{
+  "version": "1.0.1",
+  "name": "Matt (Boxing)",
+  "renderType": "sparrow",
+  "assetPath": "gameplay/characters/mattangrybox",
+  "startingAnimation": "idle",
+  "singTime": 6.1,
+  "healthIcon": {
+    "id": "bf"
+  },
+  "healthbar_colors": [200, 80, 0],
+  "animations": [
+    {
+      "offsets": [3, -255],
+      "prefix": "idle",
+      "name": "matt idle",
+      "frameIndices": []
+    },
+    {
+      "offsets": [20, -289],
+      "prefix": "punchDOWN",
+      "name": "matt down note",
+      "frameIndices": []
+    },
+    {
+      "offsets": [20, -266],
+      "prefix": "punchLEFT",
+      "name": "matt left note",
+      "frameIndices": []
+    },
+    {
+      "offsets": [20, -255],
+      "prefix": "punchRIGHT",
+      "name": "matt right note",
+      "frameIndices": []
+    },
+    {
+      "offsets": [28, -263],
+      "prefix": "punchUP",
+      "name": "matt up note",
+      "frameIndices": []
+    },
+    {
+      "offsets": [0, -260],
+      "prefix": "blockDOWN",
+      "name": "matt block down",
+      "frameIndices": []
+    },
+    {
+      "offsets": [0, -260],
+      "prefix": "blockLEFT",
+      "name": "matt block left",
+      "frameIndices": []
+    },
+    {
+      "offsets": [0, -260],
+      "prefix": "blockRIGHT",
+      "name": "matt block right",
+      "frameIndices": []
+    },
+    {
+      "offsets": [0, -260],
+      "prefix": "blockUP",
+      "name": "matt block up",
+      "frameIndices": []
+    },
+    {
+      "offsets": [131, -238],
+      "prefix": "parry",
+      "name": "matt parry",
+      "frameIndices": []
+    },
+    {
+      "offsets": [29, -244],
+      "prefix": "stand",
+      "name": "matt stando pose",
+      "frameIndices": []
+    },
+    {
+      "offsets": [2, -270],
+      "prefix": "prepare",
+      "fps": 16,
+      "name": "proj throw",
+      "frameIndices": []
+    },
+    {
+      "offsets": [125, -141],
+      "prefix": "ora",
+      "name": "ora",
+      "frameIndices": []
+    }
+  ]
+}

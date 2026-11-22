@@ -1,0 +1,40 @@
+{
+ "version": "2.2.8",
+ "songName": "Driller",
+ "artist": "Z11Gaming",
+ "charter": "Z11Gaming",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "hard"
+  ],
+  "characters": {
+   "player": "bf",
+   "girlfriend": "gf",
+   "opponent": "dad",
+   "opponentVocals": [
+    "mattBOX"
+   ],
+   "playerVocals": [
+    "bfBOX"
+   ]
+  },
+  "stage": "mainStage",
+  "noteStyle": "funkin",
+  "ratings": {
+   "hard": 9
+  },
+  "album": "volume1",
+  "stickerPack": "default",
+  "previewEnd": 0.000383779506680303
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.7 (project-mixtape-ified-vslice : 489cd88 : MODIFIED) PROTOTYPE",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 140,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

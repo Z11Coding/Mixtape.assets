@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "Special Songs",
+  "titleAsset": "a",
+  "visible": false,
+  "background": "#000000",
+  "songs": [
+    "driller",
+    "rise",
+    "zeventeen",
+    "pack-a-punch",
+    "test-field",
+    "rawr",
+    "fightback",
+    "funky-fanta",
+    "tag-and-seek",
+    "testimony",
+    "fangirl-frenzy",
+    "slowdown",
+    "reminisce"
+  ],
+  "props": []
+}
