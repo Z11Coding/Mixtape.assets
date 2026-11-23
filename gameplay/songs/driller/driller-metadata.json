@@ -9,14 +9,14 @@
    "hard"
   ],
   "characters": {
-   "player": "bf",
+   "player": "bfbox",
    "girlfriend": "gf",
-   "opponent": "dad",
+   "opponent": "mattbox",
    "opponentVocals": [
     "mattBOX"
    ],
    "playerVocals": [
-    "bfBOX"
+    "bfbox"
    ]
   },
   "stage": "mainStage",
@@ -28,7 +28,7 @@
   "stickerPack": "default",
   "previewEnd": 0.000383779506680303
  },
- "generatedBy": "Friday Night Funkin' - v0.8.7 (project-mixtape-ified-vslice : 489cd88 : MODIFIED) PROTOTYPE",
+ "generatedBy": "Friday Night Funkin' - v0.8.7 (project-mixtape-ified-vslice : 1362e93 : MODIFIED) PROTOTYPE",
  "timeChanges": [
   {
    "t": 0,

@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "name": "Matt (Boxing)",
+  "assetPath": "gameplay/characters/mattbox/mattangrybox",
+  "startingAnimation": "idle",
+  "singTime": 6.1,
+  "healthIcon": {
+    "id": "matt2"
+  },
+  "animations": [
+    {
+      "offsets": [3, -255],
+      "name": "idle",
+      "prefix": "matt idle"
+    },
+    {
+      "offsets": [20, -289],
+      "name": "punchDOWN",
+      "prefix": "matt down note"
+    },
+    {
+      "offsets": [20, -266],
+      "name": "punchLEFT",
+      "prefix": "matt left note"
+    },
+    {
+      "offsets": [20, -255],
+      "name": "punchRIGHT",
+      "prefix": "matt right note"
+    },
+    {
+      "offsets": [28, -263],
+      "name": "punchUP",
+      "prefix": "matt up note"
+    },
+    {
+      "offsets": [0, -260],
+      "name": "blockDOWN",
+      "prefix": "matt block down"
+    },
+    {
+      "offsets": [0, -260],
+      "name": "blockLEFT",
+      "prefix": "matt block left"
+    },
+    {
+      "offsets": [0, -260],
+      "name": "blockRIGHT",
+      "prefix": "matt block right"
+    },
+    {
+      "offsets": [0, -260],
+      "name": "blockUP",
+      "prefix": "matt block up"
+    },
+    {
+      "offsets": [131, -238],
+      "name": "parry",
+      "prefix": "matt parry"
+    },
+    {
+      "offsets": [29, -244],
+      "name": "stand",
+      "prefix": "matt stando pose"
+    },
+    {
+      "offsets": [2, -270],
+      "name": "prepare",
+      "prefix": "proj throw"
+    },
+    {
+      "offsets": [125, -141],
+      "name": "ora",
+      "prefix": "ora"
+    }
+  ]
+}

@@ -5,53 +5,337 @@
  },
  "events": [
   {
-   "t": 428.571428571429,
+   "t": 0,
    "e": "FocusCamera",
    "v": {
-    "char": 1
+    "char": 1,
+    "duration": 4,
+    "ease": "INSTANT"
    }
+  },
+  {
+   "t": 0,
+   "e": "ZoomCamera",
+   "v": {
+    "duration": 4,
+    "ease": "INSTANT",
+    "easeDir": "In",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1.7
+   },
+   "_layer": "Zooms"
+  },
+  {
+   "t": 214.285714285714,
+   "e": "ZoomCamera",
+   "v": {
+    "duration": 127,
+    "ease": "sine",
+    "easeDir": "InOut",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1
+   },
+   "_layer": "Zooms"
   },
   {
    "t": 13714.2857142857,
    "e": "FocusCamera",
    "v": {
-    "char": 0
+    "char": 0,
+    "ease": "INSTANT"
    }
+  },
+  {
+   "t": 13821.4285714286,
+   "e": "ZoomCamera",
+   "v": {
+    "duration": 123,
+    "ease": "sine",
+    "easeDir": "InOut",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1.7
+   },
+   "_layer": "Zooms"
+  },
+  {
+   "t": 27000,
+   "e": "FocusCamera",
+   "v": {
+    "char": 0,
+    "duration": 4,
+    "ease": "quad",
+    "easeDir": "Out",
+    "x": -120,
+    "y": 0
+   }
+  },
+  {
+   "t": 27000,
+   "e": "ZoomCamera",
+   "v": {
+    "duration": 4,
+    "ease": "quint",
+    "easeDir": "Out",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1
+   },
+   "_layer": "Zooms"
   },
   {
    "t": 27428.5714285714,
    "e": "FocusCamera",
    "v": {
-    "char": 1
+    "char": 1,
+    "duration": 4,
+    "ease": "cube",
+    "easeDir": "Out"
    }
   },
   {
-   "t": 41142.8571428571,
+   "t": 27428.5714285714,
+   "e": "ZoomCamera",
+   "v": {
+    "duration": 4,
+    "ease": "circ",
+    "easeDir": "Out",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1.35
+   },
+   "_layer": "Zooms"
+  },
+  {
+   "t": 40714.2857142857,
    "e": "FocusCamera",
    "v": {
-    "char": 0
+    "char": 0,
+    "duration": 8,
+    "ease": "expo",
+    "easeDir": "InOut"
    }
   },
   {
-   "t": 54857.1428571429,
+   "t": 54428.5714285714,
    "e": "FocusCamera",
    "v": {
-    "char": 1
+    "char": 1,
+    "duration": 8,
+    "ease": "expo",
+    "easeDir": "InOut"
+   }
+  },
+  {
+   "t": 61285.7142857143,
+   "e": "ZoomCamera",
+   "v": {
+    "duration": 2,
+    "ease": "INSTANT",
+    "easeDir": "InOut",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1
+   },
+   "_layer": "Zooms"
+  },
+  {
+   "t": 61285.7142857143,
+   "e": "FocusCamera",
+   "v": {
+    "char": 1,
+    "duration": 4,
+    "ease": "INSTANT",
+    "easeDir": "In",
+    "x": 280,
+    "y": 0
+   }
+  },
+  {
+   "t": 61714.2857142857,
+   "e": "ZoomCamera",
+   "v": {
+    "duration": 8,
+    "ease": "quart",
+    "easeDir": "Out",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1.35
+   },
+   "_layer": "Zooms"
+  },
+  {
+   "t": 61714.2857142857,
+   "e": "FocusCamera",
+   "v": {
+    "char": 1,
+    "duration": 8,
+    "ease": "cube",
+    "easeDir": "Out",
+    "x": 0,
+    "y": 0
+   }
+  },
+  {
+   "t": 68142.8571428571,
+   "e": "ZoomCamera",
+   "v": {
+    "duration": 4,
+    "ease": "INSTANT",
+    "easeDir": "InOut",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1
+   },
+   "_layer": "Zooms"
+  },
+  {
+   "t": 68142.8571428571,
+   "e": "FocusCamera",
+   "v": {
+    "char": 1,
+    "duration": 4,
+    "ease": "INSTANT",
+    "easeDir": "In",
+    "x": 280,
+    "y": 0
+   }
+  },
+  {
+   "t": 68142.8571428571,
+   "e": "FocusCamera",
+   "v": {
+    "char": 0,
+    "duration": 8,
+    "ease": "expo",
+    "easeDir": "InOut"
    }
   },
   {
    "t": 68571.4285714286,
+   "e": "ZoomCamera",
+   "v": {
+    "duration": 8,
+    "ease": "quart",
+    "easeDir": "Out",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1.35
+   },
+   "_layer": "Zooms"
+  },
+  {
+   "t": 75000,
+   "e": "ZoomCamera",
+   "v": {
+    "duration": 4,
+    "ease": "INSTANT",
+    "easeDir": "InOut",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1
+   },
+   "_layer": "Zooms"
+  },
+  {
+   "t": 75000,
    "e": "FocusCamera",
    "v": {
-    "char": 0
+    "char": 1,
+    "duration": 4,
+    "ease": "INSTANT",
+    "easeDir": "In",
+    "x": 280,
+    "y": 0
+   }
+  },
+  {
+   "t": 75428.5714285714,
+   "e": "ZoomCamera",
+   "v": {
+    "duration": 8,
+    "ease": "quart",
+    "easeDir": "Out",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1.35
+   },
+   "_layer": "Zooms"
+  },
+  {
+   "t": 75428.5714285714,
+   "e": "FocusCamera",
+   "v": {
+    "char": 0,
+    "duration": 8,
+    "ease": "cube",
+    "easeDir": "Out",
+    "x": 0,
+    "y": 0
+   }
+  },
+  {
+   "t": 81857.1428571429,
+   "e": "ZoomCamera",
+   "v": {
+    "duration": 4,
+    "ease": "INSTANT",
+    "easeDir": "InOut",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1
+   },
+   "_layer": "Zooms"
+  },
+  {
+   "t": 81857.1428571429,
+   "e": "FocusCamera",
+   "v": {
+    "char": 1,
+    "duration": 4,
+    "ease": "INSTANT",
+    "easeDir": "In",
+    "x": 280,
+    "y": 0
+   }
+  },
+  {
+   "t": 81857.1428571429,
+   "e": "FocusCamera",
+   "v": {
+    "char": 1,
+    "duration": 8,
+    "ease": "expo",
+    "easeDir": "InOut"
    }
   },
   {
    "t": 82285.7142857143,
-   "e": "FocusCamera",
+   "e": "ZoomCamera",
    "v": {
-    "char": 1
-   }
+    "duration": 8,
+    "ease": "quart",
+    "easeDir": "Out",
+    "mode": "direct",
+    "widescreenScaleX": 0,
+    "widescreenScaleY": 0,
+    "zoom": 1.35
+   },
+   "_layer": "Zooms"
   },
   {
    "t": 96000,
@@ -7126,5 +7410,5 @@
   "comments": [],
   "subBeatSnaps": {  }
  },
- "generatedBy": "Friday Night Funkin' - v0.8.7 (project-mixtape-ified-vslice : 489cd88 : MODIFIED) PROTOTYPE"
+ "generatedBy": "Friday Night Funkin' - v0.8.7 (project-mixtape-ified-vslice : 1362e93 : MODIFIED) PROTOTYPE"
 }

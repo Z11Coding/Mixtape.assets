@@ -1,130 +1,108 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "name": "Boyfriend (Boxing)",
-  "renderType": "sparrow",
-  "assetPath": "gameplay/characters/BOYFRIENDMIIBOX",
+  "assetPath": "gameplay/characters/bfbox/BOYFRIENDMIIBOX",
   "startingAnimation": "idle",
+  "flipX": true,
   "singTime": 8.0,
   "healthIcon": {
     "id": "bf"
   },
-  "healthbar_colors": [49, 176, 209],
   "animations": [
     {
       "offsets": [14, 18],
-      "prefix": "hurt",
-      "name": "BF hit",
-      "frameIndices": []
+      "name": "hurt",
+      "prefix": "BF hit"
     },
     {
       "offsets": [7, 19],
-      "prefix": "singUPmiss",
-      "frameIndices": [],
-      "name": "bf miss"
+      "name": "singUPmiss",
+      "prefix": "bf miss"
     },
     {
       "offsets": [7, 19],
-      "prefix": "singLEFTmiss",
-      "frameIndices": [],
-      "name": "bf miss"
+      "name": "singLEFTmiss",
+      "prefix": "bf miss"
     },
     {
       "offsets": [7, 19],
-      "prefix": "singDOWNmiss",
-      "frameIndices": [],
-      "name": "bf miss"
+      "name": "singDOWNmiss",
+      "prefix": "bf miss"
     },
     {
       "offsets": [7, 19],
-      "prefix": "singRIGHTmiss",
-      "frameIndices": [],
-      "name": "bf miss"
+      "name": "singRIGHTmiss",
+      "prefix": "bf miss"
     },
     {
       "offsets": [-3, -8],
-      "prefix": "dodge",
-      "frameIndices": [],
-      "name": "BF dodge"
+      "name": "dodge",
+      "prefix": "BF dodge"
     },
     {
       "offsets": [20, -58],
-      "prefix": "duck",
-      "frameIndices": [],
-      "name": "Duck"
+      "name": "duck",
+      "prefix": "Duck"
     },
     {
       "offsets": [-3, -14],
-      "prefix": "blockLEFT",
-      "frameIndices": [],
-      "name": "bf block left"
+      "name": "blockLEFT",
+      "prefix": "bf block left"
     },
     {
       "offsets": [-2, -19],
-      "prefix": "blockDOWN",
-      "frameIndices": [],
-      "name": "bf block down"
+      "name": "blockDOWN",
+      "prefix": "bf block down"
     },
     {
       "offsets": [-2, -19],
-      "prefix": "blockRIGHT",
-      "frameIndices": [],
-      "name": "bf block right"
+      "name": "blockRIGHT",
+      "prefix": "bf block right"
     },
     {
       "offsets": [-2, -23],
-      "prefix": "blockUP",
-      "frameIndices": [],
-      "name": "bf block up"
+      "name": "blockUP",
+      "prefix": "bf block up"
     },
     {
       "offsets": [-5, 0],
-      "prefix": "idle",
-      "frameIndices": [],
-      "name": "BF idle dance"
+      "name": "idle",
+      "prefix": "BF idle dance"
     },
     {
       "offsets": [228, 47],
-      "loop": true,
-      "prefix": "stand",
-      "frameIndices": [],
-      "name": "bf stando"
+      "name": "stand",
+      "prefix": "bf stando"
     },
     {
       "offsets": [50, 3],
-      "prefix": "prepare",
-      "frameIndices": [],
-      "name": "images that precede unfortunate events"
+      "name": "prepare",
+      "prefix": "images that precede unfortunate events"
     },
     {
       "offsets": [160, 158],
-      "loop": true,
-      "prefix": "ora",
-      "frameIndices": [],
-      "name": "ora"
+      "name": "ora",
+      "prefix": "ora"
     },
     {
       "offsets": [169, 12],
-      "prefix": "punchLEFT",
-      "frameIndices": [],
-      "name": "BF NOTE LEFT0"
+      "name": "punchLEFT",
+      "prefix": "BF NOTE LEFT0"
     },
     {
       "offsets": [160, -50],
-      "prefix": "punchDOWN",
-      "frameIndices": [],
-      "name": "BF NOTE DOWN0"
+      "name": "punchDOWN",
+      "prefix": "BF NOTE DOWN0"
     },
     {
       "offsets": [144, -9],
-      "prefix": "punchUP",
-      "frameIndices": [],
-      "name": "BF NOTE UP0"
+      "name": "punchUP",
+      "prefix": "BF NOTE UP0"
     },
     {
       "offsets": [199, -7],
-      "prefix": "punchRIGHT",
-      "frameIndices": [],
-      "name": "BF NOTE RIGHT0"
+      "name": "punchRIGHT",
+      "prefix": "BF NOTE RIGHT0"
     }
   ]
 }
