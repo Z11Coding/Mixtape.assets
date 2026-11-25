@@ -36,10 +36,14 @@ class MattBoxingCharacter extends SparrowCharacter
   override function playAnimation(name:String, restart:Bool = false, ignoreOther:Bool = false, reversed:Bool = false):Void
   {
     var modName:String = name;
-    if (PlayState.instance?.currentStage?.getBoyfriend()?.getCurrentAnimation() != 'idle') modName = (PlayState.instance?.currentStage?.getBoyfriend()?.getCurrentAnimation() ?? "punchLEFT").replace('punch', 'dodge');
+    if (PlayState.instance?.currentStage?.getBoyfriend() != null) {
+      if (PlayState.instance?.currentStage?.getBoyfriend()?.getCurrentAnimation() != 'idle')
+        modName = StringTools.replace((PlayState.instance?.currentStage?.getBoyfriend()?.getCurrentAnimation() ?? "punchLEFT"), 'punch', 'dodge');
+    }
 
-    if (name.startsWith('sing')) modName.replace('sing', 'punch');
+    if (StringTools.startsWith(name, 'sing')) modName = StringTools.replace(modName, 'sing', 'punch');
     super.playAnimation(modName, restart, ignoreOther, reversed);
+    trace('anim name 2: $name\nModified name: $modName');
 
   }
 }
