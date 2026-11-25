@@ -19,7 +19,7 @@
     "bfbox"
    ]
   },
-  "stage": "mainStage",
+  "stage": "boxingRing",
   "noteStyle": "funkin",
   "ratings": {
    "hard": 9
@@ -28,7 +28,7 @@
   "stickerPack": "default",
   "previewEnd": 0.000383779506680303
  },
- "generatedBy": "Friday Night Funkin' - v0.8.7 (project-mixtape-ified-vslice : 1362e93 : MODIFIED) PROTOTYPE",
+ "generatedBy": "Friday Night Funkin' - v0.8.7 (project-mixtape-ified-vslice : aae63b6 : MODIFIED) PROTOTYPE",
  "timeChanges": [
   {
    "t": 0,

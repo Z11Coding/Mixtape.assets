@@ -1,0 +1,45 @@
+import funkin.audio.FunkinSound;
+import funkin.play.character.SparrowCharacter;
+import funkin.play.GameOverSubState;
+import funkin.play.PlayState;
+import funkin.util.HapticUtil;
+//
+// ~Imports for the new Paths system.~
+// Temporary import aliases until we decide to remove backwards compatibility for mods.
+//
+import funkin.assets.Assets.AssetType;
+import funkin.assets.Assets as NewAssets;
+import funkin.assets.Paths as NewPaths;
+
+class MattBoxingCharacter extends SparrowCharacter
+{
+  public function new()
+  {
+    super('mattbox');
+  }
+
+  public static function queryAssets(type:AssetType, charId:String):Array<AssetPath>
+  {
+    var results = SparrowCharacter.queryAssets(type, charId);
+
+    switch (type)
+    {
+      case 'IMAGE':
+        results = results.push(NewPaths.image('gameplay/characters/mattbox/mattangrybox'));
+      case 'XML':
+        results = results.push(NewPaths.xml('gameplay/characters/mattbox/mattangrybox'));
+    }
+
+    return results;
+  }
+
+  override function playAnimation(name:String, restart:Bool = false, ignoreOther:Bool = false, reversed:Bool = false):Void
+  {
+    var modName:String = name;
+    if (PlayState.instance?.currentStage?.getBoyfriend()?.getCurrentAnimation() != 'idle') modName = (PlayState.instance?.currentStage?.getBoyfriend()?.getCurrentAnimation() ?? "punchLEFT").replace('punch', 'dodge');
+
+    if (name.startsWith('sing')) modName.replace('sing', 'punch');
+    super.playAnimation(modName, restart, ignoreOther, reversed);
+
+  }
+}

@@ -10,7 +10,8 @@
    "v": {
     "char": 1,
     "duration": 4,
-    "ease": "INSTANT"
+    "ease": "INSTANT",
+    "y": 400
    }
   },
   {
@@ -85,7 +86,7 @@
     "mode": "direct",
     "widescreenScaleX": 0,
     "widescreenScaleY": 0,
-    "zoom": 1
+    "zoom": 0.9
    },
    "_layer": "Zooms"
   },
@@ -96,7 +97,8 @@
     "char": 1,
     "duration": 4,
     "ease": "cube",
-    "easeDir": "Out"
+    "easeDir": "Out",
+    "y": 400
    }
   },
   {
@@ -109,7 +111,7 @@
     "mode": "direct",
     "widescreenScaleX": 0,
     "widescreenScaleY": 0,
-    "zoom": 1.35
+    "zoom": 0.95
    },
    "_layer": "Zooms"
   },
@@ -130,7 +132,8 @@
     "char": 1,
     "duration": 8,
     "ease": "expo",
-    "easeDir": "InOut"
+    "easeDir": "InOut",
+    "y": 400
    }
   },
   {
@@ -156,7 +159,7 @@
     "ease": "INSTANT",
     "easeDir": "In",
     "x": 280,
-    "y": 0
+    "y": 400
    }
   },
   {
@@ -182,7 +185,7 @@
     "ease": "cube",
     "easeDir": "Out",
     "x": 0,
-    "y": 0
+    "y": 400
    }
   },
   {
@@ -208,15 +211,15 @@
     "ease": "INSTANT",
     "easeDir": "In",
     "x": 280,
-    "y": 0
+    "y": 400
    }
   },
   {
-   "t": 68142.8571428571,
+   "t": 68357.1428571429,
    "e": "FocusCamera",
    "v": {
     "char": 0,
-    "duration": 8,
+    "duration": 6,
     "ease": "expo",
     "easeDir": "InOut"
    }
@@ -258,7 +261,7 @@
     "ease": "INSTANT",
     "easeDir": "In",
     "x": 280,
-    "y": 0
+    "y": 400
    }
   },
   {
@@ -310,17 +313,18 @@
     "ease": "INSTANT",
     "easeDir": "In",
     "x": 280,
-    "y": 0
+    "y": 400
    }
   },
   {
-   "t": 81857.1428571429,
+   "t": 82071.4285714286,
    "e": "FocusCamera",
    "v": {
     "char": 1,
-    "duration": 8,
+    "duration": 6,
     "ease": "expo",
-    "easeDir": "InOut"
+    "easeDir": "InOut",
+    "y": 400
    }
   },
   {
@@ -7410,5 +7414,5 @@
   "comments": [],
   "subBeatSnaps": {  }
  },
- "generatedBy": "Friday Night Funkin' - v0.8.7 (project-mixtape-ified-vslice : 1362e93 : MODIFIED) PROTOTYPE"
+ "generatedBy": "Friday Night Funkin' - v0.8.7 (project-mixtape-ified-vslice : aae63b6 : MODIFIED) PROTOTYPE"
 }

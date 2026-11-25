@@ -4,8 +4,9 @@
   "assetPath": "gameplay/characters/mattbox/mattangrybox",
   "startingAnimation": "idle",
   "singTime": 6.1,
+  "offsets": [0, 250],
   "healthIcon": {
-    "id": "matt2"
+    "id": "mattbox"
   },
   "animations": [
     {

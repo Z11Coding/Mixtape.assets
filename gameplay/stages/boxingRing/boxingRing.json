@@ -1,0 +1,30 @@
+{
+ "version": "1.0.2",
+ "name": "boxingRing",
+ "props": [
+  {
+   "assetPath": "stage",
+   "name": "bg",
+   "position": [-326, -180],
+   "scale": 1,
+   "startingAnimation": ""
+  }
+ ],
+ "characters": {
+  "bf": {
+   "cameraOffsets": [-113, -40],
+   "position": [912.5, 748],
+   "zIndex": 300
+  },
+  "dad": {
+   "cameraOffsets": [0, 70],
+   "position": [352, -4],
+   "zIndex": 200
+  },
+  "gf": {
+   "cameraOffsets": [0, 0],
+   "position": [695, 556],
+   "zIndex": 100
+  }
+ }
+}
